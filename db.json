@@ -1,0 +1,252 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "name": "kien.nguyen",
+      "password": "Abcd@1234",
+      "avatar": "https://thumbs.dreamstime.com/b/burger-hot-french-fries-sauces-served-table-crowded-fast-fodd-cafe-dinner-breakfast-lunch-american-108446390.jpg",
+      "phone": "123-456-7890"
+    },
+    {
+      "id": 2,
+      "email": "user2@example.com",
+      "name": "admin2",
+      "password": "Abcd@1234",
+      "avatar": "https://example.com/avatars/user2.jpg"
+    },
+    {
+      "email": "user3@example.com",
+      "password": "$2a$10$uuhGElmYV4lBpg0qlBa3reyNHX3Nlc4q6CEqKmfkqWUryhEmlTLU.",
+      "name": "admin1",
+      "avatar": "https://example.com/avatars/user1.jpg",
+      "id": 3
+    },
+    {
+      "email": "user4@example.com",
+      "password": "$2a$10$aivvHdwo8E4LsvseiyMN9.593EtapDZLQjgBVl536lqRfUqNetBoq",
+      "name": "admin1",
+      "avatar": "https://example.com/avatars/user1.jpg",
+      "id": 4
+    },
+    {
+      "email": "kien.nguyen@gmail.com",
+      "password": "$2a$10$FkD8PCyPctgd80WLjXPEFO.jz5iDKrkUS8C8IuStR8U0vjTE/z57m",
+      "name": "kien nguyen",
+      "id": 5,
+      "phone": "09051470194",
+      "avatar": "https://i.ibb.co/TxQXvGr6/image.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Fantastic Metal Pizza 51",
+      "oldPrice": 10,
+      "newPrice": 5,
+      "discount": 46.463800439969994,
+      "images": [
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg"
+      ],
+      "description": "Ratione suscipio adamo. Vitium usus sumo tamquam aequitas veritatis deprimo. Commodo acquiro vomer adaugeo amiculum.",
+      "storeName": "Store B",
+      "categoryId": 4,
+      "categoryName": "beverages",
+      "condition": "Used",
+      "priceType": "Fixed",
+      "location": "Mitchellland",
+      "delivery": "Express delivery"
+    },
+    {
+      "id": "2",
+      "name": "Fantastic Bronze Salad 57",
+      "oldPrice": 9,
+      "newPrice": 8,
+      "discount": 48.5135480951008,
+      "images": [
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg"
+      ],
+      "description": "Volva cum ipsum amoveo baiulus sit. Curatio nam deripio votum. Adfero celo vilicus mollitia.",
+      "storeName": "Store A",
+      "categoryId": 5,
+      "categoryName": "bread & bakery",
+      "condition": "Used",
+      "priceType": "Fixed",
+      "location": "Chico",
+      "delivery": "In-store pickup"
+    },
+    {
+      "id": "3",
+      "name": "Refined Concrete Chips 54",
+      "oldPrice": 3376,
+      "newPrice": 3206.3426008307865,
+      "discount": 5.025396894822676,
+      "images": [
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg"
+      ],
+      "description": "Vesica curiositas adsum. Cedo abutor crapula viridis adversus pecto summopere. Tametsi deprecator conservo.",
+      "storeName": "Store A",
+      "categoryId": 1,
+      "categoryName": "beverages",
+      "condition": "New",
+      "priceType": "Fixed",
+      "location": "Zulaufcester",
+      "delivery": "Express delivery"
+    },
+    {
+      "id": "4",
+      "name": "Generic Bamboo Pants 6",
+      "oldPrice": 1450,
+      "newPrice": 749.0898349662066,
+      "discount": 48.3386320712961,
+      "images": [
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg"
+      ],
+      "description": "Cetera textor conitor inflammatio acsi vestigium apostolus thorax territo baiulus. Vomica tribuo speciosus. Caput voluptatem crapula spiritus dicta depromo.",
+      "storeName": "Store D",
+      "categoryId": 2,
+      "categoryName": "Bag",
+      "condition": "Used",
+      "priceType": "Fixed",
+      "location": "North Raheemberg",
+      "delivery": "Express delivery"
+    },
+    {
+      "id": "5",
+      "name": "Awesome Steel Bike 25",
+      "oldPrice": 859,
+      "newPrice": 717.6946567697247,
+      "discount": 16.449981749741013,
+      "images": [
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg"
+      ],
+      "description": "Eaque ceno collum acceptus. Canonicus vestrum facilis vox clarus conicio ipsum viduo delectus tersus. Desipio urbs vulgus demo curia.",
+      "storeName": "Store B",
+      "categoryId": 5,
+      "categoryName": "Bag",
+      "condition": "New",
+      "priceType": "Negotiable",
+      "location": "Alexandrostad",
+      "delivery": "Home delivery"
+    },
+    {
+      "id": "6",
+      "name": "Fresh Granite Shirt 45",
+      "oldPrice": 1692,
+      "newPrice": 881.5134842387824,
+      "discount": 47.9010943121287,
+      "images": [
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg"
+      ],
+      "description": "Annus clibanus pecus officia sperno cunae. Vacuus comitatus vorax carpo cilicium corrumpo spectaculum decet advenio. Condico amor uterque angulus.",
+      "storeName": "Store A",
+      "categoryId": 5,
+      "categoryName": "Chair",
+      "condition": "New",
+      "priceType": "Fixed",
+      "location": "Breannaburgh",
+      "delivery": "Home delivery"
+    },
+    {
+      "id": "7",
+      "name": "Handcrafted Concrete Chicken 21",
+      "oldPrice": 3996,
+      "newPrice": 3267.5554897788297,
+      "discount": 18.229342097626883,
+      "images": [
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg"
+      ],
+      "description": "Culpa tenus viduo truculenter surculus amor tenus cicuta decerno. Aranea deputo recusandae comis suffragium timor toties sollicito celebrer. Sursum patria curvo.",
+      "storeName": "Store B",
+      "categoryId": 1,
+      "categoryName": "Table",
+      "condition": "New",
+      "priceType": "Negotiable",
+      "location": "East Joana",
+      "delivery": "Express delivery"
+    },
+    {
+      "id": "8",
+      "name": "Sleek Plastic Table 80",
+      "oldPrice": 1111,
+      "newPrice": 766.3652771198726,
+      "discount": 31.020227081919654,
+      "images": [
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg"
+      ],
+      "description": "Patria aetas pauper. Arcesso coaegresco debitis terreo. Titulus condico tutamen beneficium damno virgo.",
+      "storeName": "Store D",
+      "categoryId": 2,
+      "categoryName": "Bag",
+      "condition": "New",
+      "priceType": "Fixed",
+      "location": "Fort Nicolette",
+      "delivery": "Home delivery"
+    },
+    {
+      "id": "9",
+      "name": "Modern Concrete Shirt 77",
+      "oldPrice": 1756,
+      "newPrice": 920.2420876087631,
+      "discount": 47.59441414528684,
+      "images": [
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg"
+      ],
+      "description": "Corona laudantium succurro unus sol dens careo acceptus. Triduana advoco saepe delego similique comparo. Utpote usus suffoco aveho clibanus id.",
+      "storeName": "Store E",
+      "categoryId": 1,
+      "categoryName": "Chair",
+      "condition": "Used",
+      "priceType": "Negotiable",
+      "location": "Powlowskimouth",
+      "delivery": "In-store pickup"
+    },
+    {
+      "id": "10",
+      "name": "Rustic Silk Shirt 99",
+      "oldPrice": 2864,
+      "newPrice": 2190.677901897984,
+      "discount": 23.509849794064806,
+      "images": [
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/818vbkvpQ9L._AC_SL1500_.jpg"
+      ],
+      "description": "Curriculum eum certe aurum summisse textilis ater varietas centum. Excepturi cubo temperantia coadunatio benevolentia. Accusator solvo vacuus communis creator totus sonitus.",
+      "storeName": "Store D",
+      "categoryId": 5,
+      "categoryName": "Bag",
+      "condition": "New",
+      "priceType": "Fixed",
+      "location": "Dickenstown",
+      "delivery": "Home delivery"
+    }
+  ],
+  "cart": []
+}
