@@ -6,7 +6,7 @@ const path = require("path");
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000; // Fallback cho local
 
 server.use(middlewares);
 
@@ -21,10 +21,9 @@ server.use(rules);
 server.use(jsonServerAuth);
 server.use(router);
 
-server.listen(port);
-
-server.listen(process.env.PORT || 5000, () => {
-  console.log("JSON Server is running");
+// Chỉ gọi server.listen() một lần
+server.listen(port, () => {
+  console.log(`JSON Server is running on port ${port}`);
 });
 
 // Export the Server API
