@@ -9,9 +9,9 @@ const storeNames = ["Store A", "Store B", "Store C", "Store D", "Store E"];
 
 // Hàm tạo sản phẩm
 const generateProduct = (id) => {
-  const oldPrice = faker.number.int({ min: 500, max: 5000 });
+  const price = faker.number.int({ min: 500, max: 5000 });
   const discount = faker.number.float({ min: 5, max: 50, precision: 1 });
-  const newPrice = oldPrice - (oldPrice * discount) / 100;
+  const discountPrice = price - (price * discount) / 100;
 
   return {
     id: String(id),
@@ -19,8 +19,8 @@ const generateProduct = (id) => {
       min: 1,
       max: 100,
     })}`,
-    oldPrice: oldPrice,
-    newPrice: newPrice,
+    price: price,
+    discountPrice: discountPrice,
     discount: discount,
     images: Array.from(
       { length: faker.number.int({ min: 3, max: 5 }) },
